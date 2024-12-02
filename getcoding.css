@@ -1,0 +1,33 @@
+:root {
+    --bgcoltop: white;
+    --bgcolbottom: #1155ee;
+}
+
+html {
+    background-image: url("bgimg.jpeg"); 
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: var(--bgcoltop);
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    color: white;
+    background-color: var(--bgcolbottom);
+}
+
+.readmore {
+    background-color: #aa3333;
+}
+
+footer {
+    background-color: white;
+    text-align: right;
+}
