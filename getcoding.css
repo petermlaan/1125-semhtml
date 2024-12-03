@@ -1,6 +1,5 @@
 :root {
     --bgcoltop: white;
-    --bgcolbottom: #1155ee;
 }
 
 html {
@@ -8,6 +7,16 @@ html {
     background-size: 100%;
     background-position: top;
     background-repeat: no-repeat;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: blue;
 }
 
 header {
@@ -18,13 +27,18 @@ header {
 }
 
 main {
+    height: 30rem;
     text-align: center;
     color: white;
-    background-color: var(--bgcolbottom);
+    background-color: #333399;
 }
 
 .readmore {
-    background-color: #aa3333;
+    background-color: #663333;
+}
+
+.readmore a {
+    color: white;
 }
 
 footer {
