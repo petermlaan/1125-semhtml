@@ -1,0 +1,58 @@
+html {
+    background-color: bisque;
+}
+
+.main1 {
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    margin: 100px auto;
+}
+
+.ani1 {
+    background-color: #444;
+    height: 50px;
+    width: 50px;
+    animation-name: fc;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+}
+
+@keyframes fc {
+    0% {
+        transform: translateX(0px) translateY(0px);
+        background-color: #444;
+    }
+    24% {
+        transform: translateX(450px) translateY(0px);
+        background-color: #444;
+    }
+    25% {
+        transform: translateX(450px) translateY(0px);
+        background-color: #f44;
+    }
+    49% {
+        transform: translateX(450px) translateY(450px);
+        background-color: #f44;
+    }
+    50% {
+        transform: translateX(450px) translateY(450px);
+        background-color: #4f4;
+    }
+    74% {
+        transform: translateX(0px) translateY(450px);
+        background-color: #4f4;
+    }
+    75% {
+        transform: translateX(0px) translateY(450px);
+        background-color: #44f;
+    }
+    99% {
+        transform: translateX(0px) translateY(0px);
+        background-color: #44f;
+    }
+    100% {
+        transform: translateX(0px) translateY(0px);
+        background-color: #444;
+    }
+}
