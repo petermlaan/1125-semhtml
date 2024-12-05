@@ -4,9 +4,10 @@
 
 html {
     background-image: url("bgimg.jpeg"); 
-    background-size: 100%;
-    background-position: top;
+    background-size: 40rem 30rem;
+    background-position: top center;
     background-repeat: no-repeat;
+    background-color: #ddd;
     font-family: "Roboto", sans-serif;
 }
 
@@ -43,11 +44,14 @@ main {
     padding-top: 8rem;
     text-align: center;
     color: white;
-    background-color: #333399;
+    background-color: #368;
 }
 
 .readmore {
-    background-color: #663333;
+    background-color: #623;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10%;
 }
 
 .readmore a {
@@ -57,11 +61,10 @@ main {
 footer {
     background-color: white;
     text-align: right;
-    padding-top: 2rem;
-    height: 100%;
+    padding: 2rem 2rem;
 }
 
-footer > a {
+footer  a {
     margin: 0 1rem 0 1rem;
 }
 
