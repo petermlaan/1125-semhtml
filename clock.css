@@ -16,8 +16,9 @@ body {
     position: absolute;
     background-color: blue;
     width: 0.1rem;
-    height: 10rem;
+    height: 9rem;
     margin-left: 10rem;
+    translate: 0rem 1rem;
     transform-origin: bottom;
     animation: c 6s linear 0s infinite;
 }
@@ -26,8 +27,9 @@ body {
     position: absolute;
     background-color: black;
     width: 0.2rem;
-    height: 10rem;
+    height: 9rem;
     margin-left: 10rem;
+    translate: 0rem 1rem;
     transform-origin: bottom;
     animation: c 360s linear 0s infinite;
 }
