@@ -1,13 +1,14 @@
 body {
-    background-color: grey;
+    background-color: lightgrey;
     margin: 5rem;
 }
 
 .circle {
     background-color: white;
-    border-width: 5px;
+    border-width: 0.2rem;
+    border-color: grey;
     border-radius: 50%;
-    border-color: black;
+    border-style: solid;
     width: 20rem;
     height: 20rem;
 }
@@ -32,6 +33,44 @@ body {
     translate: 0rem 1rem;
     transform-origin: bottom;
     animation: m 3600s linear 0s infinite;
+}
+
+.c12{
+    position: absolute;
+    background-color: grey;
+    width: 0.1rem;
+    height: 0.9rem;
+    margin-left: 10rem;
+}
+
+.c1{
+    position: absolute;
+    background-color: grey;
+    width: 0.1rem;
+    height: 0.5rem;
+    margin-left: 10rem;
+    transform-origin: 0 10rem;
+    rotate: 30deg;
+}
+
+.c2{
+    position: absolute;
+    background-color: grey;
+    width: 0.1rem;
+    height: 0.5rem;
+    margin-left: 10rem;
+    transform-origin: 0 10rem;
+    rotate: 60deg;
+}
+
+.c3{
+    position: absolute;
+    background-color: grey;
+    width: 0.1rem;
+    height: 0.9rem;
+    margin-left: 10rem;
+    transform-origin: 0 10rem;
+    rotate: 90deg;
 }
 
 @keyframes s {
