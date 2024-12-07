@@ -5,8 +5,8 @@ body {
 
 .circle {
     background-color: white;
-    border-width: 0.2rem;
-    border-color: grey;
+    border-width: 2rem;
+    border-color: brown;
     border-radius: 50%;
     border-style: solid;
     width: 20rem;
