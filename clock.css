@@ -15,7 +15,7 @@ body {
 
 .seconds {
     position: absolute;
-    background-color: blue;
+    background-color: black;
     width: 0.1rem;
     height: 9rem;
     margin-left: 10rem;
@@ -35,42 +35,82 @@ body {
     animation: m 3600s linear 0s infinite;
 }
 
-.c12{
+.c{
     position: absolute;
     background-color: grey;
-    width: 0.1rem;
-    height: 0.9rem;
     margin-left: 10rem;
+    transform-origin: 0 10rem;
+}
+
+.c12{
+    width: 0.2rem;
+    height: 0.9rem;
 }
 
 .c1{
-    position: absolute;
-    background-color: grey;
     width: 0.1rem;
     height: 0.5rem;
-    margin-left: 10rem;
-    transform-origin: 0 10rem;
     rotate: 30deg;
 }
 
 .c2{
-    position: absolute;
-    background-color: grey;
     width: 0.1rem;
     height: 0.5rem;
-    margin-left: 10rem;
-    transform-origin: 0 10rem;
     rotate: 60deg;
 }
 
 .c3{
-    position: absolute;
-    background-color: grey;
-    width: 0.1rem;
+    width: 0.2rem;
     height: 0.9rem;
-    margin-left: 10rem;
-    transform-origin: 0 10rem;
     rotate: 90deg;
+}
+
+.c4{
+    width: 0.1rem;
+    height: 0.5rem;
+    rotate: 120deg;
+}
+
+.c5{
+    width: 0.1rem;
+    height: 0.5rem;
+    rotate: 150deg;
+}
+
+.c6{
+    width: 0.2rem;
+    height: 0.9rem;
+    rotate: 180deg;
+}
+
+.c7{
+    width: 0.1rem;
+    height: 0.5rem;
+    rotate: 210deg;
+}
+
+.c8{
+    width: 0.1rem;
+    height: 0.5rem;
+    rotate: 240deg;
+}
+
+.c9{
+    width: 0.2rem;
+    height: 0.9rem;
+    rotate: 270deg;
+}
+
+.c10{
+    width: 0.1rem;
+    height: 0.5rem;
+    rotate: 300deg;
+}
+
+.c11{
+    width: 0.1rem;
+    height: 0.5rem;
+    rotate: 330deg;
 }
 
 @keyframes s {
