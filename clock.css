@@ -20,7 +20,7 @@ body {
     margin-left: 10rem;
     translate: 0rem 1rem;
     transform-origin: bottom;
-    animation: c 6s linear 0s infinite;
+    animation: s 60s linear 0s infinite;
 }
 
 .minutes {
@@ -31,14 +31,56 @@ body {
     margin-left: 10rem;
     translate: 0rem 1rem;
     transform-origin: bottom;
-    animation: c 360s linear 0s infinite;
+    animation: m 3600s linear 0s infinite;
 }
 
-@keyframes c {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+@keyframes s {
+    0% {transform: rotate(0deg);}
+    1.67% {transform: rotate(0deg);}
+    1.671% {transform: rotate(6deg);}
+    3.33% {transform: rotate(6deg);}
+    3.331% {transform: rotate(12deg);}
+    4.00% {transform: rotate(12deg);}
+    4.001% {transform: rotate(18deg);}
+    5.67% {transform: rotate(18deg);}
+    5.671% {transform: rotate(24deg);}
+    7.33% {transform: rotate(24deg);}
+    7.331% {transform: rotate(30deg);}
+    9.00% {transform: rotate(30deg);}
+    9.001% {transform: rotate(36deg);}
+    10.67% {transform: rotate(36deg);}
+    10.671% {transform: rotate(42deg);}
+    12.33% {transform: rotate(42deg);}
+    12.331% {transform: rotate(48deg);}
+    14.00% {transform: rotate(48deg);}
+    14.001% {transform: rotate(54deg);}
+    15.67% {transform: rotate(54deg);}
+    15.671% {transform: rotate(60deg);}
+    17.33% {transform: rotate(60deg);}
+    17.331% {transform: rotate(66deg);}
+    19.00% {transform: rotate(66deg);}
+    19.001% {transform: rotate(72deg);}
+    20.67% {transform: rotate(72deg);}
+    20.671% {transform: rotate(78deg);}
+    22.33% {transform: rotate(78deg);}
+    22.331% {transform: rotate(84deg);}
+    24.00% {transform: rotate(84deg);}
+    24.001% {transform: rotate(90deg);}
+    25.67% {transform: rotate(90deg);}
+    25.671% {transform: rotate(96deg);}
+    27.33% {transform: rotate(96deg);}
+    27.331% {transform: rotate(102deg);}
+    29.00% {transform: rotate(102deg);}
+    29.001% {transform: rotate(108deg);}
+    30.67% {transform: rotate(108deg);}
+    30.671% {transform: rotate(114deg);}
+    32.33% {transform: rotate(114deg);}
+    32.331% {transform: rotate(120deg);}
+    34.00% {transform: rotate(120deg);}
+    100% {transform: rotate(360deg);}
+}
+
+@keyframes m {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
 }
