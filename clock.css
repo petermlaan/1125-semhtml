@@ -13,6 +13,15 @@ body {
     height: 20rem;
 }
 
+.mid {
+    position: absolute;
+    background-color: black;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    translate: 9.5rem 9.5rem;
+}
+
 .seconds {
     position: absolute;
     background-color: black;
@@ -29,89 +38,66 @@ body {
     background-color: black;
     width: 0.2rem;
     height: 9rem;
-    margin-left: 10rem;
+    margin-left: 9.9rem;
     translate: 0rem 1rem;
     transform-origin: bottom;
-    animation: m 3600s linear 0s infinite;
+    animation: t 3600s linear 0s infinite;
 }
 
-.c{
+.hours {
+    position: absolute;
+    background-color: black;
+    width: 0.4rem;
+    height: 7rem;
+    margin-left: 9.8rem;
+    translate: 0rem 3rem;
+    transform-origin: bottom;
+    animation: t 43200s linear 0s infinite;
+}
+
+.numbers div {
+    position: absolute;
+    margin-left: 10rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 1.3rem;
+    translate: 0 1rem;
+    transform-origin: 0 9rem;
+}
+
+.n1{rotate: 28deg;}
+.n2{rotate: 58deg;}
+.n3{rotate: 88deg;}
+.n4{rotate: 118deg;}
+.n5{rotate: 148deg;}
+.n6{rotate: 178deg;}
+.n7{rotate: 208deg;}
+.n8{rotate: 238deg;}
+.n9{rotate: 268deg;}
+.n10{rotate: 296deg;}
+.n11{rotate: 326deg;}
+.n12{rotate: -4deg;}
+
+.c div {
     position: absolute;
     background-color: grey;
     margin-left: 10rem;
     transform-origin: 0 10rem;
-}
-
-.c12{
     width: 0.2rem;
     height: 0.9rem;
 }
 
-.c1{
-    width: 0.1rem;
-    height: 0.5rem;
-    rotate: 30deg;
-}
-
-.c2{
-    width: 0.1rem;
-    height: 0.5rem;
-    rotate: 60deg;
-}
-
-.c3{
-    width: 0.2rem;
-    height: 0.9rem;
-    rotate: 90deg;
-}
-
-.c4{
-    width: 0.1rem;
-    height: 0.5rem;
-    rotate: 120deg;
-}
-
-.c5{
-    width: 0.1rem;
-    height: 0.5rem;
-    rotate: 150deg;
-}
-
-.c6{
-    width: 0.2rem;
-    height: 0.9rem;
-    rotate: 180deg;
-}
-
-.c7{
-    width: 0.1rem;
-    height: 0.5rem;
-    rotate: 210deg;
-}
-
-.c8{
-    width: 0.1rem;
-    height: 0.5rem;
-    rotate: 240deg;
-}
-
-.c9{
-    width: 0.2rem;
-    height: 0.9rem;
-    rotate: 270deg;
-}
-
-.c10{
-    width: 0.1rem;
-    height: 0.5rem;
-    rotate: 300deg;
-}
-
-.c11{
-    width: 0.1rem;
-    height: 0.5rem;
-    rotate: 330deg;
-}
+.c1{rotate: 30deg;}
+.c2{rotate: 60deg;}
+.c3{rotate: 90deg;}
+.c4{rotate: 120deg;}
+.c5{rotate: 150deg;}
+.c6{rotate: 180deg;}
+.c7{rotate: 210deg;}
+.c8{rotate: 240deg;}
+.c9{rotate: 270deg;}
+.c10{rotate: 300deg;}
+.c11{rotate: 330deg;}
 
 @keyframes s {
     0.00% {transform: rotate(0deg);}
@@ -236,7 +222,7 @@ body {
     100% {transform: rotate(354deg);}
 }
 
-@keyframes m {
+@keyframes t {
     0% {transform: rotate(0deg);}
     100% {transform: rotate(360deg);}
 }
