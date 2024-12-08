@@ -3,7 +3,7 @@ body {
     margin: 5rem;
 }
 
-.circle {
+.bigcircle {
     background-color: white;
     border-width: 2rem;
     border-color: brown;
@@ -13,7 +13,7 @@ body {
     height: 20rem;
 }
 
-.mid {
+.midcircle {
     position: absolute;
     background-color: black;
     width: 1rem;
@@ -57,28 +57,25 @@ body {
 
 .numbers div {
     position: absolute;
-    margin-left: 10rem;
     font-family: sans-serif;
     font-weight: 900;
     font-size: 1.3rem;
-    translate: 0 1rem;
-    transform-origin: 0 9rem;
 }
 
-.n1{rotate: 28deg;}
-.n2{rotate: 58deg;}
-.n3{rotate: 88deg;}
-.n4{rotate: 118deg;}
-.n5{rotate: 148deg;}
-.n6{rotate: 178deg;}
-.n7{rotate: 208deg;}
-.n8{rotate: 238deg;}
-.n9{rotate: 268deg;}
-.n10{rotate: 296deg;}
-.n11{rotate: 326deg;}
-.n12{rotate: -4deg;}
+.n1{translate: 14rem 2rem;}
+.n2{translate: 17rem 5rem;}
+.n3{translate: 18rem 9rem;}
+.n4{translate: 17rem 13rem;}
+.n5{translate: 14rem 16rem;}
+.n6{translate: 9.5rem 17rem;}
+.n7{translate: 5.5rem 16rem;}
+.n8{translate: 2.5rem 13rem;}
+.n9{translate: 1.5rem 9rem;}
+.n10{translate: 2.5rem 5rem;}
+.n11{translate: 5.5rem 2rem;}
+.n12{translate: 9.4rem 1rem;}
 
-.c div {
+.ticks div {
     position: absolute;
     background-color: grey;
     margin-left: 10rem;
@@ -87,17 +84,17 @@ body {
     height: 0.9rem;
 }
 
-.c1{rotate: 30deg;}
-.c2{rotate: 60deg;}
-.c3{rotate: 90deg;}
-.c4{rotate: 120deg;}
-.c5{rotate: 150deg;}
-.c6{rotate: 180deg;}
-.c7{rotate: 210deg;}
-.c8{rotate: 240deg;}
-.c9{rotate: 270deg;}
-.c10{rotate: 300deg;}
-.c11{rotate: 330deg;}
+.tick1{rotate: 30deg;}
+.tick2{rotate: 60deg;}
+.tick3{rotate: 90deg;}
+.tick4{rotate: 120deg;}
+.tick5{rotate: 150deg;}
+.tick6{rotate: 180deg;}
+.tick7{rotate: 210deg;}
+.tick8{rotate: 240deg;}
+.tick9{rotate: 270deg;}
+.tick10{rotate: 300deg;}
+.tick11{rotate: 330deg;}
 
 @keyframes s {
     0.00% {transform: rotate(0deg);}
