@@ -1,0 +1,11 @@
+.card {
+    background-color: orange;
+    width: 13rem;
+    height: 20rem;
+    margin: 3rem;
+}
+
+.card:hover {
+    rotate: y 1turn;
+    transition: rotate 3s linear;
+}
