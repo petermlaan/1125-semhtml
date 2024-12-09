@@ -24,12 +24,12 @@ body {
 
 .seconds {
     position: absolute;
-    background-color: black;
+    background-color: red;
     width: 0.1rem;
-    height: 9rem;
+    height: 10rem;
     margin-left: 10rem;
     translate: 0rem 1rem;
-    transform-origin: bottom;
+    transform-origin: 0rem 9rem;
     animation: s 60s linear 0s infinite;
 }
 
